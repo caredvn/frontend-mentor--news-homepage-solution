@@ -51,7 +51,7 @@
     }
 
     .main-head__btn:hover {
-        background-color: var(--blue-bg-color);
+        background-color: var(--dark-blue-color);
         transition: all 0.5s;
     }
 
