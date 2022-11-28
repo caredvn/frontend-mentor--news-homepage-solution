@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    padding: 1.5rem;
+    position: fixed;
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.header__logo {
+    width: 65px;
+    height: 40px;
+}
+
+@media screen and (min-width: 500px) {
+    .header {
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-color: transparent;
+        z-index: 0;
+        padding: 1.5rem 5rem;
+    }    
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="./css/main-head.css">
+		<link rel="stylesheet" href="./css/main-news.css">
+		<link rel="stylesheet" href="./css/main-rank.css">
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/header.css">
+		<link rel="stylesheet" href="./css/header-nav.css">
+		<link rel="stylesheet" href="./css/footer.css">
+		<link rel="stylesheet" href="./css/style.css">
+
+		<link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+		</style>
+
+		<title>Frontend Mentor | News homepage</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<img src="../assets/images/logo.svg" alt="Logo" class="header__logo">
+
+			<nav class="header__nav">
+				<input type="checkbox" class="header__menu-input">
+				<div class="header__menu-burguer">
+					<div></div>
+				</div>
+				<div class="header__menu">
+					<div>
+						<div>
+							<ul class="header__menu-lista">
+								<li class="header__menu-item"><a href="#" class="header__menu-link">Home</a></li>
+								<li class="header__menu-item"><a href="#" class="header__menu-link">New</a></li>
+								<li class="header__menu-item"><a href="#" class="header__menu-link">Popular</a></li>
+								<li class="header__menu-item"><a href="#" class="header__menu-link">Trending</a></li>
+								<li class="header__menu-item"><a href="#" class="header__menu-link">Categories</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header__sobrepor"></div>
+			</nav>
+		</header>
+
+		<main class="main">
+
+			<section class="main-head">
+				<div class="main-head__banner"></div>
+				<div class="main-head__container--one">
+					<h1 class="main-head__title">
+						The Bright Future of Web 3.0?
+					</h1>
+					<div class="main-head__container--two">
+						<p class="main-head__paragraph">
+							We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+							of the people.
+							But is it really fulfilling its promise?
+						</p>
+						<button class="main-head__btn">
+							Read more
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="main-news">
+				<h2 class="main-news__title">New</h2>
+				<div class="main-news__item">
+					<a href="#" class="main-news__subtitle">
+						Hydrogen VS Electric Cars
+					</a>
+					<p class="main-news__paragraph">
+						Will hydrogen-fueled cars ever catch up to EVs?
+					</p>
+				</div>
+				<div class="main-news__item main-news__item--center">
+					<a href="#" class="main-news__subtitle">
+						The Downsides of AI Artistry
+					</a>
+					<p class="main-news__paragraph"> What are the possible adverse effects of on-demand AI image generation?
+					</p>
+				</div>
+				<div class="main-news__item">
+					<a href="#" class="main-news__subtitle">
+						Is VC Funding Drying Up?</a>
+					<p class="main-news__paragraph">
+						Private funding by VC firms is down 50% YOY. We take a look at what that means.
+					</p>
+				</div>
+			</section>
+
+			<section class="main-rank">
+				<div>
+					<img src="../assets/images/image-retro-pcs.jpg" alt="Retro PCs" class="main-rank__img">
+					<div class="main-rank__container">
+						<h2 class="main-rank__number">01</h2>
+						<a href="#" class="main-rank__titulo">
+							Reviving Retro PCs
+						</a>
+						<p class="main-rank__description">
+							What happens when old PCs are given modern upgrades?
+						</p>
+					</div>
+				</div>
+				<div>
+					<img src="../assets/images/image-top-laptops.jpg" alt="Laptop keyboard" class="main-rank__img">
+					<div class="main-rank__container">
+						<h2 class="main-rank__number">02</h2>
+						<a href="#" class="main-rank__titulo">
+							Top 10 Laptops of 2022
+						</a>
+						<p class="main-rank__description">
+							Our best picks for various needs and budgets.
+						</p>
+					</div>
+				</div>
+				<div>
+					<img src="../assets/images/image-gaming-growth.jpg" alt="Videogame Joystick" class="main-rank__img">
+					<div class="main-rank__container">
+						<h2 class="main-rank__number">03</h2>
+						<a href="#" class="main-rank__titulo">
+							The Growth of Gaming
+						</a>
+						<p class="main-rank__description">How the pandemic has sparked fresh opportunities.</p>
+					</div>
+				</div>
+			</section>
+			
+		</main>
+
+		<footer class="footer">
+			<p class="footer__paragraph">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					class="footer__link">Frontend Mentor</a> | Coded by <a class="footer__link" href="#">Caren Divino</a>.</p>
+		</footer>
+	</body>
+
+</html>

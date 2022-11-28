@@ -1,0 +1,21 @@
+.footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 1rem 0;
+    background-color: var(--light-gray-color);
+}
+
+.footer__paragraph {
+    
+    color: var(--gray-text-color);
+}
+
+.footer__link:link, .footer__link:visited {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.footer__link:hover, .footer__link:active {
+    color: var(--orange-color);
+    transition: all 0.3s;
+}

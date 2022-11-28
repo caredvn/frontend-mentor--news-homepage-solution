@@ -1,0 +1,106 @@
+.main {
+    padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 500px) { 
+    .main {
+        display: grid;
+        grid-template-columns: 30.3% 30.3% 30.3%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "main main sidebar"
+        "row-end row-end row-end";
+        align-items: stretch;
+        justify-items: stretch;
+        padding: 0 5rem;
+        column-gap: 3%;
+        justify-content: space-between;
+    }
+
+    .main-head {
+        grid-area: main;
+        width: 100%;
+    }
+
+    .main-head__container--one {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+
+    .main-head__container--two {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+
+    .main-head__banner {
+        background-image: url(../../assets/images/image-web-3-desktop.jpg);
+        height: calc(50vh + 40px + 24px);
+    }
+
+    .main-head__title {
+        width: 50%;
+        font-size: 3.5rem;
+        line-height: 4.4rem;
+        padding: 0;
+        padding-right: 1rem;
+    }
+
+    .main-head__btn:hover {
+        background-color: var(--blue-bg-color);
+        transition: all 0.5s;
+    }
+
+    .main-news {
+        grid-area: sidebar;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin: 0;
+    }
+
+    .main-noticias__subtitulo:hover {
+        color: var(--orange-color);
+        transition: all 0.3s;
+    }
+
+    .main-rank {
+        grid-area: row-end;
+        flex-flow: row;
+        width: 100%;
+        padding: 0;
+        padding: 2rem 0 ;
+        justify-content: space-between;
+    }
+
+    .main-rank__img {
+        width: 10vw;
+        max-height: fit-content;
+    }
+
+    .main-rank__container {
+        width: 70%;
+    }
+
+    .main-rank > div {
+        width: 30%;
+        padding: 0;
+    }
+    
+    .main-rank__numero {
+        font-size: 2.25rem;
+    }
+
+    .main-rank__titulo:hover {
+        color: var(--red-color);
+        transition: all 0.3s;
+    }
+
+    .main-rank__description {
+        line-height: 1.25rem;
+    }
+}

@@ -1,0 +1,45 @@
+.main-rank {
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-rank > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.main-rank__img {
+    width: 25vw;
+}
+
+.main-rank__container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+}
+
+.main-rank__number {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: var(--light-gray-color);
+}
+
+.main-rank__titulo {
+    font-size: 1.2rem;
+    color: var(--dark-blue-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-rank__description {
+    color: var(--gray-color);
+    line-height: 1.7rem;
+}

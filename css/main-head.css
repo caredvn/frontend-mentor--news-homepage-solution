@@ -1,0 +1,33 @@
+.main-head__banner {
+    width: 100%;
+    height: calc(70vh + 40px + 24px);
+    background-image: url(../../assets/images/image-web-3-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.main-head__title {
+    padding: 1.5rem 0 ;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 3.25rem;
+}
+
+.main-head__paragraph {
+    line-height: 2rem;
+    word-spacing: 0.25rem;
+    color: var(--gray-color);
+}
+
+.main-head__btn {
+    margin: 1.5rem 0;
+    padding: 1rem 1.75rem;
+    color: var(--white-color);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+    background-color: var(--red-color);
+}
