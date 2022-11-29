@@ -115,3 +115,4 @@ On my next projects, i wish to learn more about spacing, sizing units to use, ot
 ## Acknowledgments
 
 To help me with responsiveness with my toggle button, i used the video below. I thank and indicate this video for anyone who is struggling with the same thing. good luck! 
+Traversy Media - [Pure CSS Hamburger Menu & Overlay](https://youtu.be/DZg6UfS5zYg)
