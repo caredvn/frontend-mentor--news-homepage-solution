@@ -17,4 +17,6 @@ body {
     background-color: var(--white-color);
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
