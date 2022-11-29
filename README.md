@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [News homepage solution](https://github.com/caredvn/frontend-mentor--news-homepage-solution.git)
+- Solution URL: [News homepage solution](https://frontend-mentor-news-homepage-solution-wmdp.vercel.app)
 
 ## My process
 
