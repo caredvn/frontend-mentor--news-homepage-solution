@@ -110,6 +110,7 @@ On my next projects, i wish to learn more about spacing, sizing units to use, ot
 ## Author
 
 - Frontend Mentor - [@CarenDivino](https://www.frontendmentor.io/profile/CarenDivino)
+- Linkedin - [Caren de Paula Lourenço Divino](https://www.linkedin.com/in/carendvn/)
 - Twitter - [@caredvn](https://twitter.com/caredvn)
 
 ## Acknowledgments
